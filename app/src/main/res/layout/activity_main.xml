@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.meliismyself.fragmentfundamentals.MainActivity">
+
+    <Button
+        android:id="@+id/b_ex1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment By XML"
+        />
+   <Button
+       android:id="@+id/b_ex2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Fragment By JAVA"/>
+    <Button
+        android:id="@+id/b_ex3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Lifecycle"/>
+
+    <Button
+        android:id="@+id/b_ex4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add/Remove Fragment"/>
+
+    <Button
+        android:id="@+id/b_send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data From Activity To Fragment "/>
+    <Button
+        android:id="@+id/b_send_data_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data To Activity From Fragment"/>
+    <Button
+        android:id="@+id/b_inter_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inter Fragment Communication"/>
+    <Button
+        android:id="@+id/b_hide_pop_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data To Fragment from Parent Activity"/>
+    <Button
+        android:id="@+id/b_fragment_back_navi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Back Navigation Button Activity"/>
+    <Button
+        android:id="@+id/b_fragment_on_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment on Screen Rotation"/>
+</LinearLayout>
